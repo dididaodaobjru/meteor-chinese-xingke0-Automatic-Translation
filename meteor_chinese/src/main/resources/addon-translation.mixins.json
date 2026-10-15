@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.nippaku_zanmu.trans_addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "CategoryAccessor",
+    "CustomTextRendererMixin",
+    "DefaultSettingsWidgetFactoryMixin",
+    "GuiThemeMixin",
+    "ModuleAccessor",
+    "SettingAccessor",
+    "SettingGroupAccessor",
+    "TabAccessor"
+  ]
+}

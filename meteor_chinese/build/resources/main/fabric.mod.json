@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-chinese",
+  "version": "1.4.0",
+  "name": "meteor-chinese",
+  "description": "为 meteor客户端 提供中文支持",
+  "authors": [
+    "Nippaku Zanmu",
+    "xingke"
+  ],
+  "contact": {
+    "repo": "https://github.com/xingke0/meteor_chinese"
+  },
+  "icon": "assets/meteor-translation-addon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.nippaku_zanmu.trans_addon.MeteorTranslation"
+    ]
+  },
+  "mixins": [
+    "addon-translation.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "231,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [">=1.21.11"],
+    "meteor-client": "*"
+  }
+}
